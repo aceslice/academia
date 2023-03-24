@@ -63,6 +63,10 @@
 .app .hero .texts {
   padding: 80px;
 }
+.app .hero .texts .logo {
+  margin-bottom: 20px;
+  display: none;
+}
 .app .hero .texts h1 {
   font-size: 48px;
   font-family: Sora, var(--font);
@@ -171,13 +175,15 @@
     font-size: 24px;
   }
   .app .hero {
-    width: 100%;
     padding: 20px;
     height: 100vh;
   }
   .app .hero .texts {
     padding: 0;
     width: 100%;
+  }
+  .app .hero .texts .logo {
+    display: block;
   }
   .app .hero .img-container {
     display: none;

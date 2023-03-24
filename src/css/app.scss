@@ -63,6 +63,10 @@
     align-items: center;
     justify-content: space-between;
     .texts {
+      .logo {
+        margin-bottom: 20px;
+        display: none;
+      }
       padding: 80px;
       h1 {
         font-size: 48px;
@@ -171,22 +175,24 @@
         .logo {
           margin: 0 auto;
         }
-        a{
+        a {
           font-size: 24px;
         }
       }
     }
-    .hero{
-      width: 100%;
+    .hero {
       padding: 20px;
       height: 100vh;
-      .texts{
+      .texts {
         padding: 0;
         width: 100%;
+        .logo {
+          display: block;
+        }
       }
-      .img-container{
+      .img-container {
         display: none;
-    }
+      }
     }
   }
 }
