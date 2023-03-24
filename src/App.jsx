@@ -1,12 +1,13 @@
 import "./css/app.css";
 import Topnav from "./components/Topnav";
 import Hero from "./components/Hero";
+import Menu from "../public/menu.svg"
 
 function App() {
   return (
     <div className="app">
       <img
-        src="/src/public/elements.svg"
+        src={Menu}
         alt="Menu"
         className="menu"
         onClick={() => {

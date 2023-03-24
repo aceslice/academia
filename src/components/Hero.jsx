@@ -1,8 +1,9 @@
+import Logo from "../public/Logo.svg"
 const Hero = () => {
   return (
     <section className="hero">
       <div className="texts">
-        <img src="/src/public/logo.svg" alt="Academia Logo" className="logo" />
+        <img src={Logo} alt="Academia Logo" className="logo" />
         <h1>
           Be <span>Extra</span> Prepared
           <br />

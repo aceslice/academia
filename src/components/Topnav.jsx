@@ -1,11 +1,13 @@
+import Logo from "/public/logo.svg";
+import Menu from "/public/menu.svg"
 const Topnav = () => {
   return (
     <nav className="topnav" id="top">
-      <img src="/src/public/elements.svg" alt="Menu" className="menu" onClick={() =>{
+      <img src={Menu} alt="Menu" className="menu" onClick={() =>{
          document.getElementById("top").style.transform = "translateY(-100%)";
       } }/>
       <div className="links">
-        <img src="/src/public/logo.svg" alt="Academia Logo" className="logo"/>
+        <img src={Logo} alt="Academia Logo" className="logo"/>
         <a href="#">Course</a>
         <a href="#">Flash Sale</a>
         <a href="#">Bootcamp</a>

@@ -137,16 +137,16 @@
           }
         }
         .chip:nth-child(1) {
-          background-image: url(/src/public/houcine-ncib-B4TjXnI0Y2c-unsplash.jpg);
+          background-image: url(/public/houcine-ncib-B4TjXnI0Y2c-unsplash.jpg);
         }
         .chip:nth-child(2) {
-          background-image: url(/src/public/michael-dam-mEZ3PoFGs_k-unsplash.jpg);
+          background-image: url(/public/michael-dam-mEZ3PoFGs_k-unsplash.jpg);
         }
         .chip:nth-child(3) {
-          background-image: url(/src/public/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg);
+          background-image: url(/public/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg);
         }
         .chip:nth-child(4) {
-          background-image: url(/src/public/prince-akachi-J1OScm_uHUQ-unsplash.jpg);
+          background-image: url(/public/prince-akachi-J1OScm_uHUQ-unsplash.jpg);
         }
         p {
           margin: 0 auto;
@@ -158,7 +158,7 @@
       display: block;
       height: 100vh;
       width: 500px;
-      background-image: url(/src/public/aiony-haust-3TLl_97HNJo-unsplash.jpg);
+      background-image: url(public/aiony-haust-3TLl_97HNJo-unsplash.jpg);
       background-position: center;
       background-size: 100%;
       background-repeat: no-repeat;
@@ -211,6 +211,16 @@
           .chip {
             height: 35px;
             width: 35px;
+          }
+        }
+        .buttons{
+          display: flex;
+          .get{
+order: 2;
+flex: 2;
+          }
+          .lrn{
+            flex: 1;
           }
         }
       }
