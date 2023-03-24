@@ -186,9 +186,6 @@
   .app .topnav .links a {
     font-size: 24px;
   }
-  .app .topnav .buttons button {
-    padding: 15px 30px;
-  }
   .app .hero {
     padding: 20px;
     height: 100vh;
@@ -203,16 +200,6 @@
   .app .hero .texts .chips .chip {
     height: 35px;
     width: 35px;
-  }
-  .app .hero .texts .buttons {
-    display: flex;
-  }
-  .app .hero .texts .buttons .get {
-    order: 2;
-    flex: 2;
-  }
-  .app .hero .texts .buttons .lrn {
-    flex: 1;
   }
   .app .hero .img-container {
     display: none;
