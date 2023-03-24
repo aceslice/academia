@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="app">
       <img
-        src="/public/elements.svg"
+        src="/src/public/elements.svg"
         alt="Menu"
         className="menu"
         onClick={() => {
