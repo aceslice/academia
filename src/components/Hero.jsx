@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="texts">
-        <img src="/public/Logo.svg" alt="Academia Logo" className="logo" />
+        <img src="/public/Logo.png" alt="Academia Logo" className="logo" />
         <h1>
           Be <span>Extra</span> Prepared
           <br />

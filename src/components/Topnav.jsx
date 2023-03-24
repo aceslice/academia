@@ -2,7 +2,7 @@ const Topnav = () => {
   return (
     <nav className="topnav">
       <div className="links">
-      <img src="./public/Logo.svg" alt="Academia logo" className="logo" />
+      <img src="./public/Logo.png" alt="Academia logo" className="logo" />
         <a href="#">Course</a>
         <a href="#">Flash Sale</a>
         <a href="#">Bootcamp</a>
