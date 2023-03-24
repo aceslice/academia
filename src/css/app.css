@@ -18,9 +18,14 @@
 }
 .app .topnav .links .logo {
   margin-right: 62px;
-  height: 30px;
+  height: 24px;
   cursor: pointer;
+  background-image: url(/public/Logo.png);
   transition: 200ms ease;
+  width: 150px;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 .app .topnav .links .logo:hover {
   transform: scale(1.05);
@@ -68,6 +73,12 @@
   margin-bottom: 20px;
   display: none;
   height: 30px;
+  background-image: url(/public/Logo.png);
+  transition: 200ms ease;
+  width: 150px;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 .app .hero .texts h1 {
   font-size: 48px;
@@ -186,6 +197,10 @@
   }
   .app .hero .texts .logo {
     display: block;
+  }
+  .app .hero .texts .chips .chip {
+    height: 35px;
+    width: 35px;
   }
   .app .hero .img-container {
     display: none;
