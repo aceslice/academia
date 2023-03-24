@@ -16,14 +16,8 @@
       justify-content: center;
       .logo {
         margin-right: 62px;
-        height: 24px;
         cursor: pointer;
-        background-image: url(/public/Logo.png);
         transition: 200ms ease;
-        width: 150px;
-        background-position: center;
-        background-size: 100%;
-        background-repeat: no-repeat;
         &:hover {
           transform: scale(1.05);
         }
@@ -71,14 +65,6 @@
     .texts {
       .logo {
         margin-bottom: 24px;
-        display: none;
-        height: 30px;
-        background-image: url(/public/Logo.png);
-        transition: 200ms ease;
-        width: 150px;
-        background-position: center;
-        background-size: 100%;
-        background-repeat: no-repeat;
       }
       padding: 80px;
       h1 {
