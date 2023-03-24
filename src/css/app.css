@@ -186,6 +186,9 @@
   .app .topnav .links a {
     font-size: 24px;
   }
+  .app .topnav .buttons button {
+    padding: 15px 30px;
+  }
   .app .hero {
     padding: 20px;
     height: 100vh;
