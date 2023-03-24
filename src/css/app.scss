@@ -9,6 +9,7 @@
     backdrop-filter: blur(20px);
     position: fixed;
     top: 0;
+    left: 0;
     .links {
       display: flex;
       align-items: center;
@@ -23,7 +24,7 @@
       }
       a {
         text-decoration: none;
-        color:  var(--text-color);
+        color: var(--text-color);
         margin-right: 16px;
         transition: 200ms ease;
         &:hover {
@@ -74,7 +75,7 @@
         }
       }
       p {
-        width: 450px;
+        max-width: 450px;
         margin-bottom: 32px;
       }
       .buttons {
@@ -135,7 +136,7 @@
         .chip:nth-child(4) {
           background-image: url(/public/prince-akachi-J1OScm_uHUQ-unsplash.jpg);
         }
-        p{
+        p {
           margin: 0 auto;
           margin-left: 32px;
         }
@@ -153,4 +154,38 @@
   }
 }
 @media only screen and (min-device-width: 0) and (max-device-width: 767px) {
+  body {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .app {
+    .topnav {
+      height: 100%;
+      width: 100%;
+      flex-direction: column;
+      justify-content: space-evenly;
+      display: none;
+      .links {
+        flex-direction: column;
+        gap: 32px;
+        .logo {
+          margin: 0 auto;
+        }
+        a{
+          font-size: 24px;
+        }
+      }
+    }
+    .hero{
+      width: 100%;
+      padding: 32px;
+      .texts{
+        padding: 0;
+        width: 100%;
+      }
+      .img-container{
+        display: none;
+    }
+    }
+  }
 }

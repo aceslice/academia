@@ -9,6 +9,7 @@
           backdrop-filter: blur(20px);
   position: fixed;
   top: 0;
+  left: 0;
 }
 .app .topnav .links {
   display: flex;
@@ -73,7 +74,7 @@
   color: var(--primary-color);
 }
 .app .hero .texts p {
-  width: 450px;
+  max-width: 450px;
   margin-bottom: 32px;
 }
 .app .hero .texts .buttons button {
@@ -145,4 +146,39 @@
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
+}
+
+@media only screen and (min-device-width: 0) and (max-device-width: 767px) {
+  body {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .app .topnav {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: none;
+  }
+  .app .topnav .links {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .app .topnav .links .logo {
+    margin: 0 auto;
+  }
+  .app .topnav .links a {
+    font-size: 24px;
+  }
+  .app .hero {
+    width: 100%;
+    padding: 32px;
+  }
+  .app .hero .texts {
+    padding: 0;
+    width: 100%;
+  }
+  .app .hero .img-container {
+    display: none;
+  }
 }/*# sourceMappingURL=app.css.map */
