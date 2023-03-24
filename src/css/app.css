@@ -197,6 +197,12 @@
   .app .hero .texts .logo {
     display: block;
   }
+  .app .hero .texts .buttons {
+    display: flex;
+  }
+  .app .hero .texts .buttons .get {
+    order: 2;
+  }
   .app .hero .texts .chips .chip {
     height: 35px;
     width: 35px;
