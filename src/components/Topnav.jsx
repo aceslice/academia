@@ -1,5 +1,5 @@
-import Logo from "/public/logo.svg";
-import Menu from "/public/menu.svg"
+import Logo from "../public/logo.svg";
+import Menu from "../public/menu.svg";
 const Topnav = () => {
   return (
     <nav className="topnav" id="top">

@@ -1,7 +1,7 @@
 import "./css/app.css";
 import Topnav from "./components/Topnav";
 import Hero from "./components/Hero";
-import Menu from "../public/menu.svg"
+import Menu from "../src/public/menu.svg";
 
 function App() {
   return (
