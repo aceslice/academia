@@ -14,6 +14,7 @@ html {
   --head: #6e6e6e;
   --gradient: linear-gradient(256deg, #081f3d, #000d1a);
   --font: "Space Grotesk",Inter, Avenir, Helvetica, Arial, sans-serif;
+  --black: #22272F;
 }
 
 body {
