@@ -1,4 +1,11 @@
 .app {
+  .menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: none;
+    height: 30px;
+  }
   .topnav {
     width: 100%;
     display: flex;
@@ -56,6 +63,7 @@
       }
     }
   }
+
   // HERO SECTION
   .hero {
     width: 100%;
@@ -163,12 +171,17 @@
     line-height: 1.5;
   }
   .app {
+    .menu {
+      display: block;
+    }
     .topnav {
       height: 100%;
       width: 100%;
       flex-direction: column;
       justify-content: space-evenly;
-      display: none;
+      transform: translateY(-100%);
+      transition: 200ms ease;
+      background: var(--gradient);
       .links {
         flex-direction: column;
         gap: 32px;
@@ -189,8 +202,8 @@
         .logo {
           display: block;
         }
-        .chips{
-          .chip{
+        .chips {
+          .chip {
             height: 35px;
             width: 35px;
           }

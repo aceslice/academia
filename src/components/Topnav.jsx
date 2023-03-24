@@ -1,6 +1,9 @@
 const Topnav = () => {
   return (
-    <nav className="topnav">
+    <nav className="topnav" id="top">
+      <img src="/public/elements.svg" alt="" className="menu" onClick={() =>{
+         document.getElementById("top").style.transform = "translateY(-100%)";
+      } }/>
       <div className="links">
         <img src="/public/logo.svg" alt="Academia Logo" className="logo"/>
         <a href="#">Course</a>
