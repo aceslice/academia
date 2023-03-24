@@ -1,4 +1,4 @@
-import Logo from "../public/Logo.svg"
+import Logo from "../public/logo.svg";
 const Hero = () => {
   return (
     <section className="hero">
