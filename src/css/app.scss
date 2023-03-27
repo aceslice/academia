@@ -1,6 +1,5 @@
 .app {
   overflow-x: hidden;
-  overflow-y: scroll;
   .menu {
     position: absolute;
     top: 20px;
@@ -194,11 +193,12 @@
       }
       h4 {
         margin-bottom: 16px;
-        color: black;
+        color: var(--black);
       }
       p {
         width: 100%;
         font-size: 16px;
+        color: var(--head);
       }
     }
   }

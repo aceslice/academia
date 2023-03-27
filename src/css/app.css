@@ -1,6 +1,5 @@
 .app {
   overflow-x: hidden;
-  overflow-y: scroll;
 }
 .app .menu {
   position: absolute;
@@ -192,11 +191,12 @@
 }
 .app .more .container h4 {
   margin-bottom: 16px;
-  color: black;
+  color: var(--black);
 }
 .app .more .container p {
   width: 100%;
   font-size: 16px;
+  color: var(--head);
 }
 
 @media only screen and (min-device-width: 0) and (max-device-width: 767px) {
