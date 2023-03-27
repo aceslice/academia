@@ -164,6 +164,7 @@
   background-color: aliceblue;
   display: flex;
   gap: 40px;
+  padding-bottom: 32px;
 }
 .app .more h1 {
   color: var(--black);
@@ -191,7 +192,7 @@
 }
 .app .more .container p {
   width: 100%;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 @media only screen and (min-device-width: 0) and (max-device-width: 767px) {
