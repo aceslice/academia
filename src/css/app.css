@@ -17,6 +17,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 2;
 }
 .app .topnav .links {
   display: flex;
@@ -134,16 +135,16 @@
   border-radius: 100%;
 }
 .app .hero .texts .chips .chip:nth-child(1) {
-  background-image: url(../public/houcine-ncib-B4TjXnI0Y2c-unsplash.jpg);
+  background-image: url(https://images.unsplash.com/photo-1623945194105-cd36c4433390?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNvbGxlZ2UlMjBzdHVkZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
 }
 .app .hero .texts .chips .chip:nth-child(2) {
-  background-image: url(../public/michael-dam-mEZ3PoFGs_k-unsplash.jpg);
+  background-image: url(https://images.unsplash.com/photo-1529470839332-78ad660a6a82?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fHN0dWRlbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60);
 }
 .app .hero .texts .chips .chip:nth-child(3) {
-  background-image: url(../public/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg);
+  background-image: url(https://images.unsplash.com/photo-1525748822304-6807cb1348ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHN0dWRlbnQlMjBwb3J0cmFpdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60);
 }
 .app .hero .texts .chips .chip:nth-child(4) {
-  background-image: url(../public/prince-akachi-J1OScm_uHUQ-unsplash.jpg);
+  background-image: url(https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3R1ZGVudCUyMHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
 }
 .app .hero .texts .chips p {
   margin: 0 auto;
@@ -153,16 +154,51 @@
   display: block;
   height: 100vh;
   width: 500px;
-  background-image: url(../public/aiony-haust-3TLl_97HNJo-unsplash.jpg);
+  background-image: url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60);
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
+}
+.app .more {
+  padding: 80px;
+  background-color: aliceblue;
+  display: flex;
+  gap: 40px;
+}
+.app .more h1 {
+  color: var(--black);
+}
+.app .more h1 span {
+  color: var(--primary-color);
+}
+.app .more .line {
+  width: 5px;
+  max-height: 100%;
+  background: var(--primary-color);
+  border-radius: 5px;
+}
+.app .more .container {
+  padding: 20px;
+  flex: 1;
+}
+.app .more .container img {
+  margin-bottom: 20px;
+  height: 30px;
+}
+.app .more .container h4 {
+  margin-bottom: 16px;
+  color: black;
+}
+.app .more .container p {
+  width: 100%;
+  font-size: 15px;
 }
 
 @media only screen and (min-device-width: 0) and (max-device-width: 767px) {
   body {
     font-size: 18px;
     line-height: 1.5;
+    overflow-x: hidden;
   }
   .app .menu {
     display: block;
@@ -209,5 +245,11 @@
   }
   .app .hero .img-container {
     display: none;
+  }
+  .app .more {
+    padding: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 32px;
   }
 }/*# sourceMappingURL=app.css.map */

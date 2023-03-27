@@ -23,6 +23,7 @@ body {
   font-weight: 400;
   font-family: var(--font);
   background: var(--gradient);
-  line-height: 1.5em;
+  line-height: normal;
   color: var(--text-color);
+  overflow-x: hidden;
 }/*# sourceMappingURL=index.css.map */

@@ -2,8 +2,12 @@ import "./css/app.css";
 import Topnav from "./components/Topnav";
 import Hero from "./components/Hero";
 import Menu from "../src/public/menu.svg";
+import More from "./components/More";
+import Aos from "aos";
+import 'aos/dist/aos.css';
 
 function App() {
+  Aos.init();
   return (
     <div className="app">
       <img
@@ -16,6 +20,8 @@ function App() {
       />
       <Topnav />
       <Hero />
+      <More />
+
     </div>
   );
 }

@@ -9,7 +9,7 @@ const Topnav = () => {
       <div className="links">
         <img src={Logo} alt="Academia Logo" className="logo"/>
         <a href="#">Course</a>
-        <a href="#">Flash Sale</a>
+        <a href="#">Support</a>
         <a href="#">Bootcamp</a>
         <a href="#">Learning Flow</a>
       </div>
