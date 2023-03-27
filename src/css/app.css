@@ -1,3 +1,7 @@
+.app {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
 .app .menu {
   position: absolute;
   top: 20px;

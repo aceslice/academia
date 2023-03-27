@@ -26,4 +26,5 @@ body {
   line-height: normal;
   color: var(--text-color);
   overflow-x: hidden;
+  overflow-y: scroll;
 }/*# sourceMappingURL=index.css.map */

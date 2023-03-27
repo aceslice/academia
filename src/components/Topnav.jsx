@@ -4,7 +4,7 @@ const Topnav = () => {
   return (
     <nav className="topnav" id="top">
       <img src={Menu} alt="Menu" className="menu" onClick={() =>{
-         document.getElementById("top").style.transform = "translateY(-100%)";
+         document.getElementById("top").style.transform = "translateX(-100%)";
       } }/>
       <div className="links">
         <img src={Logo} alt="Academia Logo" className="logo"/>
