@@ -21,7 +21,7 @@ const More = () => {
         <img src={star} alt="Icon" />
         <h4>Packed with Modern Technology and tools.</h4>
         <p>
-          Presence of an online library to set you on the path of knowledge and academic success and many more!
+          We have a free online library to set you on the path of knowledge and academic success and many more!
         </p>
       </div>
     </div>
