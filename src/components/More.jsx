@@ -4,7 +4,7 @@ import book from "../public/book-open.svg";
 const More = () => {
   return (
     <div className="more">
-      <h1 data-aos="fade-right">
+      <h1 data-aos="zoom-in">
         Education through <br />
         <span>Simplicity</span>
       </h1>

@@ -248,8 +248,9 @@
   }
   .app .more {
     padding: 20px;
-    width: 100%;
-    flex-wrap: wrap;
-    margin-top: 32px;
+    flex-direction: column;
+  }
+  .app .more .line {
+    display: none;
   }
 }/*# sourceMappingURL=app.css.map */

@@ -204,7 +204,7 @@
   body {
     font-size: 18px;
     line-height: 1.5;
-      overflow-x: hidden;
+    overflow-x: hidden;
   }
   .app {
     .menu {
@@ -257,9 +257,10 @@
     }
     .more{
       padding: 20px;
-      width: 100%;
-      flex-wrap: wrap;
-      margin-top: 32px;
+      flex-direction: column;
+      .line{
+        display: none;
+      }
     }
   }
 }
